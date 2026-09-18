@@ -19,16 +19,16 @@ FichajeSimple es una plataforma web SaaS desarrollada para automatizar el regist
 Se implementó un rediseño completo de la experiencia de usuario para los administradores:
 *   **Dashboard Principal:** Desarrollo de un panel de control totalmente nuevo e intuitivo para visualizar métricas generales y el estado del servicio en tiempo real.
 
-![Dashboard Principal de FichajeSimple](dashboard-hero.jpg)
+![Dashboard Principal de FichajeSimple](dashboard-hero.png)
 
 *   **Panel de Empleados Automatizado e Informes:** Creación de una interfaz dedicada para registrar nuevos trabajadores, gestionar estados y generar los documentos legales listos para descargar.
 
-![Panel de Informes y Descargas PDF](informes_02.jpg)
+![Panel de Informes y Descargas PDF](informes_02.png)
 
 ### 2. Kiosco de Fichaje (Kiosk Mode)
 *   Desarrollo de una vista de "Kiosco" diseñada específicamente para que los empleados puedan registrar su entrada y salida de manera rápida y segura. El sistema calcula automáticamente los tiempos y categoriza los motivos de pausa.
 
-![Historial de Fichajes y Kiosco](fichajes_03.jpg)
+![Historial de Fichajes y Kiosco](fichajes_03.png)
 
 ## ⚙️ Retos Técnicos y Arquitectura Backend
 
@@ -36,7 +36,7 @@ Se implementó un rediseño completo de la experiencia de usuario para los admin
 *   Fui responsable de diseñar el esquema relacional en PostgreSQL desde sus cimientos, asegurando la escalabilidad y consistencia de los datos.
 *   **Seguridad Multi-inquilino (RLS):** Implementé políticas de Row Level Security (RLS) para garantizar que los asesores y administradores solo pudieran gestionar sus propias empresas vinculadas, impidiendo fugas de datos.
 
-![Panel de Asesorías - Ecosistema Multi-tenant](asesorias_fichaje_simple_01.jpg)
+![Panel de Asesorías - Ecosistema Multi-tenant](asesorias_fichaje_simple_01.png)
 *(Vista del panel de asesorías gestionando múltiples empresas de forma aislada gracias a RLS)*
 
 ### 2. Gestión de Suscripciones con Stripe Webhooks
